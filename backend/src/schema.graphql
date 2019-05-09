@@ -1,0 +1,8 @@
+# fake Mutation
+type Mutation {
+  hi: String
+}
+# fake Query
+type Query {
+  hi: String
+}
