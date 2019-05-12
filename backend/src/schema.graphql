@@ -1,8 +1,10 @@
-# fake Mutation
-type Mutation {
-  hi: String
+type Dog {
+  name: String!
 }
-# fake Query
+
+type Mutation {
+  createDog(name: String!): Dog
+}
 type Query {
-  hi: String
+  dogs: [Dog]!
 }
